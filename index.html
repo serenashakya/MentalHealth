@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mental Health</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/footer.css" />
+		<script src="js/main.js"></script>
+	</head>
+	<body>
+		<!-- Navbar -->
+		<header class="header">
+			<nav class="header__navbar navbar container">
+				<div class="navbar__brand">
+					<img
+						src="assets/logo.png"
+						alt="Madat Logo"
+						class="navbar__logo"
+					/>
+				</div>
+				<ul class="navbar__menu">
+					<li class="navbar__item">
+						<a href="/index.html" class="navbar__link">Home</a>
+					</li>
+					<li class="navbar__item">
+						<a href="#" class="navbar__link">About</a>
+					</li>
+					<li class="navbar__item">
+						<a href="#" class="navbar__link">Resources</a>
+					</li>
+					<li class="navbar__item">
+						<a href="#" class="navbar__link">Support Services</a>
+					</li>
+					<li class="navbar__item">
+						<a href="#" class="navbar__link">Self-Assessment</a>
+					</li>
+					<li class="navbar__item">
+						<a href="/pages/story.html" class="navbar__link"
+							>Community</a
+						>
+					</li>
+					<li class="navbar__item">
+						<a href="/pages/blog.html" class="navbar__link">Blog</a>
+					</li>
+					<li class="navbar__close">
+						<span class="navbar__close-button">&times;</span>
+					</li>
+				</ul>
+				<div class="navbar__actions">
+					<a href="/pages/signin.html" class="navbar__signin"
+						>Sign In</a
+					>
+					<a href="/pages/signup.html" class="navbar__signup"
+						>Sign Up</a
+					>
+				</div>
+				<div class="navbar__toggle">
+					<span class="navbar__hamburger">☰</span>
+				</div>
+			</nav>
+		</header>
+
+		<section class="hero container">
+			<h1 class="hero__title">Breathe In...</h1>
+			<h1 class="hero__subtitle">Breathe Out...</h1>
+			<p class="hero__text">
+				Breathing in, I smile. Breathing out, I release. Breathing in, I
+				dwell in the present moment. Breathing out, I feel it is a
+				wonderful moment.
+			</p>
+		</section>
+
+		<section class="container">
+			<div class="emotions">
+				<h2 class="emotions__title">How Are You Feeling Today?</h2>
+				<div class="emotions__options">
+					<button class="emotions__button">Very Good</button>
+					<button class="emotions__button">Good</button>
+					<button class="emotions__button">Neutral</button>
+					<button class="emotions__button">Bad</button>
+					<button class="emotions__button">Very Bad</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="container">
+			<div class="content">
+				<div class="content__image">
+					<img
+						src="assets/brain.png"
+						alt="Mental health illustration"
+						class="content__img"
+					/>
+				</div>
+				<div class="content__text">
+					<h2 class="content__title">You Deserve to be</h2>
+					<h2 class="content__subtitle">Mentally Healthy</h2>
+					<p class="content__description">
+						Lorem ipsum odor amet, consectetuer adipiscing elit. Non
+						aliquet habitasse nunc elementum mattis est neque ipsum.
+						Varius aliquet dignissim; vivamus neque et sem. Lorem
+						senectus libero platea at feugiat inceptosollis magna
+						est. Facilisi ullamcorper enim pellentesque netus
+						accumsan mattis rhoncus. Lorem ipsum odor amet,
+						consectetuer adipiscing elit. Non aliquet habitasse nunc
+						elementum mattis est neque ipsum. Varius aliquet
+						dignissim; vivamus neque et sem. Lorem senectus libero
+						platea at feugiat inceptosollis magna est. Facilisi
+						ullamcorper enim pellentesque netus accumsan mattis
+						rhoncus
+					</p>
+					<a href="#" class="content__button">Get Started →</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="issues container">
+			<div class="issues__header">
+				<button class="issues__badge">Issues</button>
+				<h2 class="issues__title">Common Mental Health Issues</h2>
+			</div>
+
+			<!-- Position buttons outside the wrapper -->
+			<div class="flex justify-center">
+				<div>
+					<button class="issues__nav issues__nav--prev">
+						&#9664;
+					</button>
+				</div>
+				<div class="issues__carousel-wrapper">
+					<div class="issues__carousel">
+						<div class="issues__card">
+							<img
+								src="assets/brain.png"
+								alt="Anxiety"
+								class="issues__image"
+							/>
+							<span class="issues__label">Anxiety</span>
+						</div>
+						<div class="issues__card">
+							<img
+								src="assets/brain.png"
+								alt="Depression"
+								class="issues__image"
+							/>
+							<span class="issues__label">Depression</span>
+						</div>
+						<div class="issues__card">
+							<img
+								src="assets/brain.png"
+								alt="PTSD"
+								class="issues__image"
+							/>
+							<span class="issues__label">PTSD</span>
+						</div>
+						<div class="issues__card">
+							<img
+								src="assets/brain.png"
+								alt="PTSD"
+								class="issues__image"
+							/>
+							<span class="issues__label">PTSD</span>
+						</div>
+						<!-- Add more cards as needed -->
+					</div>
+				</div>
+				<div>
+					<button class="issues__nav issues__nav--next">
+						&#9654;
+					</button>
+				</div>
+			</div>
+
+			<div class="issues__dots">
+				<span class="issues__dot issues__dot--active"></span>
+				<span class="issues__dot"></span>
+				<span class="issues__dot"></span>
+			</div>
+		</section>
+
+		<section class="quiz-section">
+			<div class="container">
+				<h2 class="quiz-section__title">
+					Quizzes to Discover Your True Self
+				</h2>
+				<p class="quiz-section__description">
+					Our free quiz can help you take a proactive approach to your
+					mental health and wellness!
+				</p>
+
+				<!-- Carousel Wrapper -->
+				<div class="quiz-carousel-wrapper">
+					<div class="quiz-carousel">
+						<div class="quiz-card">
+							<img
+								src="assets/brain.png"
+								alt="Anxiety Test"
+								class="quiz-card__image"
+							/>
+							<span class="quiz-card__label">Anxiety Test</span>
+						</div>
+						<div class="quiz-card">
+							<img
+								src="assets/brain.png"
+								alt="Depression Test"
+								class="quiz-card__image"
+							/>
+							<span class="quiz-card__label"
+								>Depression Test</span
+							>
+						</div>
+						<div class="quiz-card">
+							<img
+								src="assets/brain.png"
+								alt="PTSD Test"
+								class="quiz-card__image"
+							/>
+							<span class="quiz-card__label">PTSD Test</span>
+						</div>
+						<div class="quiz-card">
+							<img
+								src="assets/brain.png"
+								alt="OCD Test"
+								class="quiz-card__image"
+							/>
+							<span class="quiz-card__label">OCD Test</span>
+						</div>
+					</div>
+				</div>
+
+				<a href="#" class="quiz-section__button">Take More Quizzes</a>
+			</div>
+		</section>
+
+		<section class="banner-section">
+			<p class="banner-section__text">Self care is not Selfish</p>
+		</section>
+
+		<section class="stories-section">
+			<div class="container">
+				<h2 class="stories-section__title">Stories for HOPE</h2>
+				<p class="stories-section__description">
+					Sharing is caring! Encourage and inspire others with your
+					stories. Your experiences can give them the courage to face
+					their fears, overcome their struggles, and come out
+					stronger.
+				</p>
+
+				<!-- Stories Carousel -->
+				<div class="stories-carousel">
+					<div class="story-card">
+						<img
+							src="assets/hope.png"
+							alt="How I overcame Depression"
+							class="story-card__image"
+						/>
+						<h3 class="story-card__title">
+							How I overcame Depression
+						</h3>
+						<a href="#" class="story-card__button">View</a>
+					</div>
+					<div class="story-card">
+						<img
+							src="assets/hope.png"
+							alt="How I overcame Depression"
+							class="story-card__image"
+						/>
+						<h3 class="story-card__title">
+							How I overcame Depression
+						</h3>
+						<a href="#" class="story-card__button">View</a>
+					</div>
+					<div class="story-card">
+						<img
+							src="assets/hope.png"
+							alt="How I overcame Depression"
+							class="story-card__image"
+						/>
+						<h3 class="story-card__title">
+							How I overcame Depression
+						</h3>
+						<a href="#" class="story-card__button">View</a>
+					</div>
+					<!-- Add more story cards as needed -->
+				</div>
+
+				<!-- Pagination Dots (optional) -->
+				<div class="stories-carousel__dots">
+					<span
+						class="stories-carousel__dot stories-carousel__dot--active"
+					></span>
+					<span class="stories-carousel__dot"></span>
+					<span class="stories-carousel__dot"></span>
+				</div>
+			</div>
+		</section>
+
+		<section class="share-story">
+			<div class="share-story__content">
+				<h2 class="share-story__title">We Love to Hear Your Story</h2>
+				<p class="share-story__description">
+					Motivate and uplift others through your stories. Your
+					personal narratives can become a beacon of hope, resilience,
+					and courage in the twilight of stormy seas and inspire them
+					to come out stronger and braver.
+				</p>
+				<a href="#" class="share-story__button">Share Now</a>
+			</div>
+		</section>
+
+		<section class="resources-section">
+			<div class="container">
+				<h2 class="resources-section__title">Therapy Resources</h2>
+				<p class="resources-section__description">
+					<strong>MADAT</strong> aims to provide therapy resources to
+					help you find effective solutions to mental health struggles
+					such as anxiety, depression, stress, and more. Help is just
+					a click away!
+				</p>
+
+				<!-- Resources Grid -->
+				<div class="resources-grid">
+					<div class="resource-card">
+						<div class="resource-card__content">
+							<img
+								src="assets/anxiety.png"
+								alt="20 Anxiety-Management Therapy Tools"
+								class="resource-card__image"
+							/>
+						</div>
+						<a href="#" class="resource-card__button">View</a>
+					</div>
+					<div class="resource-card">
+						<div class="resource-card__content">
+							<img
+								src="assets/anxiety.png"
+								alt="Personal Strengths Exercise"
+								class="resource-card__image"
+							/>
+						</div>
+						<a href="#" class="resource-card__button">View</a>
+					</div>
+					<div class="resource-card">
+						<div class="resource-card__content">
+							<img
+								src="assets/anxiety.png"
+								alt="Anxiety 5, 4, 3, 2, 1"
+								class="resource-card__image"
+							/>
+						</div>
+						<a href="#" class="resource-card__button">View</a>
+					</div>
+					<div class="resource-card">
+						<div class="resource-card__content">
+							<img
+								src="assets/anxiety.png"
+								alt="Cognitive Reframing"
+								class="resource-card__image"
+							/>
+						</div>
+						<a href="#" class="resource-card__button">View</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="footer__container container">
+				<!-- Logo and Description -->
+				<div class="footer__about">
+					<img
+						src="assets/logo-white.png"
+						alt="Madat Logo"
+						class="footer__logo"
+					/>
+					<p class="footer__description">
+						Our vision is to provide convenience and help increase
+						your sales business.
+					</p>
+					<div class="footer__socials">
+						<a href="#" class="footer__social-link"
+							><i class="fab fa-facebook"></i
+						></a>
+						<a href="#" class="footer__social-link"
+							><i class="fab fa-twitter"></i
+						></a>
+						<a href="#" class="footer__social-link"
+							><i class="fab fa-instagram"></i
+						></a>
+					</div>
+				</div>
+
+				<!-- Links Section -->
+				<div class="footer__links">
+					<h3 class="footer__title">About</h3>
+					<a href="#" class="footer__link">How it works</a>
+					<a href="#" class="footer__link">Featured</a>
+				</div>
+
+				<div class="footer__links">
+					<h3 class="footer__title">Contact Us</h3>
+					<p class="footer__link">+9779856565547</p>
+					<p class="footer__link">Kathmandu</p>
+					<a href="mailto:serena@gmail.com" class="footer__link"
+						>serena@gmail.com</a
+					>
+				</div>
+
+				<div class="footer__links">
+					<h3 class="footer__title">Community</h3>
+					<a href="#" class="footer__link">Blog</a>
+				</div>
+
+				<div class="footer__links">
+					<h3 class="footer__title">Socials</h3>
+					<a href="#" class="footer__link">Instagram</a>
+					<a href="#" class="footer__link">Twitter</a>
+					<a href="#" class="footer__link">Facebook</a>
+				</div>
+			</div>
+
+			<!-- Bottom Footer -->
+			<div class="footer__bottom container">
+				<p>&copy; 2022 Company Name. All rights reserved</p>
+				<div class="footer__policies">
+					<a href="#" class="footer__policy-link">Privacy & Policy</a>
+					<a href="#" class="footer__policy-link"
+						>Terms & Condition</a
+					>
+				</div>
+			</div>
+		</footer>
+
+		<script>
+			const carousel = document.querySelector(".issues__carousel");
+			const cards = document.querySelectorAll(".issues__card");
+			const prevButton = document.querySelector(".issues__nav--prev");
+			const nextButton = document.querySelector(".issues__nav--next");
+			const dots = document.querySelectorAll(".issues__dot");
+
+			let currentIndex = 0;
+			let isTransitioning = false;
+
+			// Function to calculate cardsToShow based on screen width
+			function getCardsToShow() {
+				if (window.innerWidth <= 768) return 1;
+				if (window.innerWidth <= 1024) return 2;
+				return 3;
+			}
+
+			let cardsToShow = getCardsToShow();
+			const totalCards = cards.length;
+
+			// Update the carousel layout when resizing the window
+			window.addEventListener("resize", () => {
+				cardsToShow = getCardsToShow();
+				updateCarousel();
+			});
+
+			// Update visibility of navigation buttons based on card count
+			if (totalCards <= cardsToShow) {
+				prevButton.style.display = "none";
+				nextButton.style.display = "none";
+			}
+
+			function updateCarousel() {
+				// Calculate offset based on the current index
+				const offset =
+					-currentIndex * (carousel.clientWidth / cardsToShow);
+				carousel.style.transform = `translateX(${offset}px)`;
+
+				// Update dots
+				dots.forEach((dot) =>
+					dot.classList.remove("issues__dot--active")
+				);
+				dots[currentIndex % dots.length].classList.add(
+					"issues__dot--active"
+				);
+			}
+
+			function handleTransitionEnd() {
+				isTransitioning = false;
+			}
+
+			carousel.addEventListener("transitionend", handleTransitionEnd);
+
+			prevButton.addEventListener("click", () => {
+				if (!isTransitioning && currentIndex > 0) {
+					isTransitioning = true;
+					currentIndex--;
+					updateCarousel();
+				}
+			});
+
+			nextButton.addEventListener("click", () => {
+				if (
+					!isTransitioning &&
+					currentIndex < totalCards - cardsToShow
+				) {
+					isTransitioning = true;
+					currentIndex++;
+					updateCarousel();
+				}
+			});
+
+			// Auto-slide every 3 seconds (optional)
+			setInterval(() => {
+				if (
+					!isTransitioning &&
+					currentIndex < totalCards - cardsToShow
+				) {
+					currentIndex++;
+					updateCarousel();
+				} else if (currentIndex >= totalCards - cardsToShow) {
+					currentIndex = 0;
+					updateCarousel();
+				}
+			}, 3000);
+
+			const navbarToggle = document.querySelector(".navbar__toggle");
+			const navbarMenu = document.querySelector(".navbar__menu");
+			const navbar = document.querySelector(".header__navbar");
+			const closeButton = document.querySelector(".navbar__close");
+
+			navbarToggle.addEventListener("click", () => {
+				navbar.classList.toggle("header__navbar--expanded");
+				navbarMenu.classList.toggle("navbar__menu--mobile");
+			});
+
+			closeButton.addEventListener("click", () => {
+				navbar.classList.remove("header__navbar--expanded");
+				navbarMenu.classList.remove("navbar__menu--mobile");
+			});
+		</script>
+	</body>
+</html>

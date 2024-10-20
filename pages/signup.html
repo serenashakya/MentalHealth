@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sign Up</title>
+		<link rel="stylesheet" href="/css/auth.css" />
+	</head>
+	<body>
+		<div class="form-container">
+			<div class="signup-page">
+				<div class="signup-page__left">
+					<h2 class="signup-page__welcome-title">
+						Come and Join Us!
+					</h2>
+					<p class="signup-page__message">
+						We're thrilled to have you here! If you haven't yet,
+						create an account to unlock access to personalized
+						support, resources, and tools for your well-being.
+					</p>
+					<button
+						class="signup-page__signin-button"
+						onclick="navigateToPage()"
+					>
+						Already have an account? Sign in.
+					</button>
+				</div>
+				<div class="signup-page__right">
+					<h1 class="signup-page__title">signup</h1>
+					<form class="signup-page__form">
+						<div class="signup-page__input-group">
+							<input
+								type="text"
+								class="signup-page__input"
+								placeholder="Username"
+							/>
+						</div>
+						<div class="signup-page__input-group">
+							<input
+								type="text"
+								class="signup-page__input"
+								placeholder="email"
+							/>
+						</div>
+						<div class="signup-page__input-group">
+							<input
+								type="password"
+								class="signup-page__input"
+								placeholder="password"
+							/>
+						</div>
+						<div class="signup-page__input-group">
+							<input
+								type="password"
+								class="signup-page__input"
+								placeholder="confirm password"
+							/>
+							<button
+								type="button"
+								class="signup-page__toggle-password"
+							></button>
+						</div>
+						<button type="submit" class="signup-page__button">
+							signup
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			function navigateToPage() {
+				// Replace 'your-target-page.html' with the actual URL you want to navigate to
+				window.location.href = "/pages/signin.html";
+			}
+		</script>
+	</body>
+</html>

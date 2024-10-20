@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>auth</title>
+		<link rel="stylesheet" href="/css/auth.css" />
+	</head>
+	<body>
+		<div class="form-container">
+			<div class="signin-page">
+				<div class="signin-page__left">
+					<h1 class="signin-page__title">Signin</h1>
+					<form class="signin-page__form">
+						<div class="signin-page__input-group">
+							<input
+								type="text"
+								class="signin-page__input"
+								placeholder="Username"
+							/>
+						</div>
+						<div class="signin-page__input-group">
+							<input
+								type="password"
+								class="signin-page__input"
+								placeholder="Password"
+							/>
+							<button
+								type="button"
+								class="signin-page__toggle-password"
+							></button>
+						</div>
+						<button type="submit" class="signin-page__button">
+							Signin
+						</button>
+					</form>
+				</div>
+				<div class="signin-page__right">
+					<h2 class="signin-page__welcome-title">Welcome back!</h2>
+					<p class="signin-page__message">
+						We're so glad to see you again. We hope you've been
+						taking care of yourself and are feeling safe and well.
+					</p>
+					<button
+						class="signin-page__signup-button"
+						onclick="navigateToPage()"
+					>
+						No account yet? Signup.
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			function navigateToPage() {
+				// Replace 'your-target-page.html' with the actual URL you want to navigate to
+				window.location.href = "/pages/signup.html";
+			}
+		</script>
+	</body>
+</html>
